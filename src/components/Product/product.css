@@ -1,0 +1,41 @@
+.grid {
+    display: grid;
+    grid-gap: 10px ;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .cell {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 220px;
+    width:350px;
+    margin-bottom: 5px;
+    background-color: white;
+    display: flex;flex-direction: row;
+    cursor: pointer;
+  }
+  .product-div{
+      margin:10px
+
+  }
+  .product-img{
+    width:50%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.product-img >img{
+    width:100%;
+    height:auto;
+
+}
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:5px
+}
